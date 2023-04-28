@@ -14,7 +14,7 @@ const NavBar = ({ onSearch }: Props) => {
         src={logo}
         boxSize="45px"
         borderRadius={10}
-        border="1px"
+        border="2px"
         alt="DiscoverPlay"
       />
       <SearchInput onSearch={onSearch} />

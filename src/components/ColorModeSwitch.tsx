@@ -9,6 +9,7 @@ const ColorModeSwitch = () => {
     return (
       <MdWbSunny
         color="#9ae6b4"
+        cursor='pointer'
         size={45}
         onClick={toggleColorMode}
       />
@@ -16,6 +17,7 @@ const ColorModeSwitch = () => {
   return (
     <IoMoonSharp
       color="#9ae6b4"
+      cursor='pointer'
       size={45}
       onClick={toggleColorMode}
     />
